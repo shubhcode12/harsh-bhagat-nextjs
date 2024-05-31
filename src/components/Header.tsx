@@ -1,0 +1,58 @@
+"use client";
+import React, { useState } from "react";
+import Link from "next/link";
+import { RiMenu3Fill } from "react-icons/ri";
+import { IoMdClose } from "react-icons/io";
+
+function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const menuItems = [
+    { title: "Home", link: "/" },
+    { title: "Awards", link: "#awards" },
+    { title: "About", link: "#about" },
+    { title: "Private Community", link: "#privateCommunity" },
+    { title: "Contact", link: "#contact" },
+  ];
+
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50 flex justify-between bg-transparent backdrop-blur-lg border-solid border-b-2 border-[#c1ffe7] items-center p-5 shadow-md bg-white">
+      <div className="text-2xl font-bold">Harsh Bhagat</div>
+      <nav className="text-xl hidden md:flex">
+        {menuItems.map((item, i) => (
+          <Link href={item.link} className="px-3">
+            {item.title}
+          </Link>
+        ))}
+      </nav>
+      <div className="md:hidden">
+        <button onClick={toggleMenu}>
+          {menuOpen ? (
+            <IoMdClose className="h-6 w-6" />
+          ) : (
+            <RiMenu3Fill className="h-6 w-6" />
+          )}
+        </button>
+      </div>
+      {menuOpen && (
+        <nav className="md:hidden">
+          <ul>
+            <li>
+              {menuItems.map((item, i) => (
+                <Link href={item.link} className="px-3">
+                  {item.title}
+                </Link>
+              ))}
+            </li>
+          </ul>
+        </nav>
+      )}
+    </header>
+  );
+}
+
+export default Header;
