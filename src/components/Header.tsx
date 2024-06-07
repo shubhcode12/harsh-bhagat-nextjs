@@ -15,6 +15,7 @@ function Header() {
     { title: "Home", link: "/" },
     { title: "Awards", link: "#awards" },
     { title: "About", link: "#about" },
+    { title: "Support", link: "/support" },
     { title: "Private Community", link: "#privateCommunity" },
     { title: "Contact", link: "#contact" },
   ];
