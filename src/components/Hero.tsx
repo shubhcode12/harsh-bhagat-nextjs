@@ -9,10 +9,18 @@ function Hero() {
 
   return (
     <section className="container mx-auto px-4 py-16 text-center fade-in mt-10">
-      <Spotlight
-        className="-top-40 left-0 md:left-60 md:-top-20"
-        fill="#0ce290"
-      />
+      <div>
+        <Spotlight
+          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
+          fill="#0ce290"
+        />
+        <Spotlight
+          className="h-[80vh] w-[50vw] top-10 left-full"
+          fill="#0ce290"
+        />
+        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="#0ce290" />
+      </div>
+      
       <div className="flex flex-col items-center lg:flex-row lg:items-center lg:justify-between">
         <div className="lg:w-1/2">
           <h2 className="text-6xl text-black font-bold text-center">
