@@ -5,7 +5,7 @@ import { TextGenerateEffect } from "@/ui/TextGenEffect";
 
 function Hero() {
   const words =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo convallis tortor, et consequat neque malesuada quis. Proin nec libero scelerisque, efficitur arcu quis, porta massa. Donecluctus nibh quis imperdiet maximus.";
+    "Introducing Harsh Bhagat, a seasoned full-time trader and dynamic speaker featured on Josh Talks.";
 
   return (
     <section className="container mx-auto px-4 py-16 text-center fade-in mt-10">
