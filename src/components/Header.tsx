@@ -40,15 +40,15 @@ function Header() {
         </button>
       </div>
       {menuOpen && (
-        <nav className="md:hidden">
-          <ul>
-            <li>
-              {menuItems.map((item, i) => (
+        <nav className="absolute top-16 left-0 right-0 bg-slate-200 md:hidden">
+          <ul className="flex flex-col items-center space-y-4 px-2 py-4">
+            {menuItems.map((item, i) => (
+              <li key={i}>
                 <Link href={item.link} className="px-3">
                   {item.title}
                 </Link>
-              ))}
-            </li>
+              </li>
+            ))}
           </ul>
         </nav>
       )}
