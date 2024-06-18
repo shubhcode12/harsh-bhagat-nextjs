@@ -8,7 +8,7 @@ function Hero() {
     "Introducing Harsh Bhagat, a seasoned full-time trader and dynamic speaker featured on Josh Talks.";
 
   return (
-    <section className="container mx-auto px-4 py-16 text-center fade-in mt-10 overflow-hidden">
+    <section className="container mx-auto px-4 py-16 text-center fade-in mt-10 overflow-hidden lg:overflow-visible sm:overflow-hidden">
       <div className="relative w-full h-full">
         <Spotlight
           className="absolute -top-40 -left-10 md:-left-32 md:-top-20 h-screen"
