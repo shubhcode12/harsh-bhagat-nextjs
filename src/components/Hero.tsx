@@ -8,39 +8,36 @@ function Hero() {
     "Introducing Harsh Bhagat, a seasoned full-time trader and dynamic speaker featured on Josh Talks.";
 
   return (
-    <section className="container mx-auto px-4 py-16 text-center fade-in mt-10">
-      <div>
+    <section className="container mx-auto px-4 py-16 text-center fade-in mt-10 overflow-hidden">
+      <div className="relative w-full h-full">
         <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
+          className="absolute -top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="#0ce290"
         />
         <Spotlight
-          className="h-[80vh] w-[50vw] top-10 left-full"
+          className="absolute h-[80vh] w-[50vw] top-10 left-full"
           fill="#0ce290"
         />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="#0ce290" />
+        <Spotlight
+          className="absolute left-80 top-28 h-[80vh] w-[50vw]"
+          fill="#0ce290"
+        />
       </div>
-      
+
       <div className="flex flex-col items-center lg:flex-row lg:items-center lg:justify-between">
         <div className="lg:w-1/2">
-          <h2 className="text-6xl text-black font-bold text-center">
+          <h2 className="text-6xl text-black font-bold text-center lg:text-left">
             Hi, I'm <span className="text-[#0ce290]">Harsh</span>
           </h2>
 
-          <div id="divider" className="w-60 h-1 bg-[#0ce290] mx-auto my-8" />
-
-          <TextGenerateEffect
-            words={words}            
+          <div
+            id="divider"
+            className="w-60 h-1 bg-[#0ce290] mx-auto my-8 lg:mx-0"
           />
 
-          {/* <p className="mt-4 text-lg text-gray-600 text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            commodo convallis tortor, et consequat neque malesuada quis. Proin
-            nec libero scelerisque, efficitur arcu quis, porta massa. Donec
-            luctus nibh quis imperdiet maximus.
-          </p> */}
+          <TextGenerateEffect words={words} />
         </div>
-        <div className="mt-8 lg:mt-0 lg:w-1/2 flex justify-center">
+        <div className="mt-8 lg:mt-0 lg:w-1/2 flex justify-center lg:justify-end">
           <img
             src="man.jpeg"
             alt="Harsh Bhagat"
