@@ -4,11 +4,10 @@ import { InfiniteMovingCards } from "./Carousel";
 
 function MediaAwards() {
   const awardsArray = [
-    "next.svg",
-    "next.svg",
-    "next.svg",
-    "next.svg",
-    "vercel.svg",
+    "joshtalks.png",
+    "joshtalks.png",
+    "joshtalks.png",
+    "joshtalks.png",    
   ];
   return (
     <section id="awards" className="py-16">
