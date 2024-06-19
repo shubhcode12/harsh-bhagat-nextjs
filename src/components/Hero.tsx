@@ -26,13 +26,13 @@ function Hero() {
 
       <div className="flex flex-col items-center lg:flex-row lg:items-center lg:justify-between">
         <div className="lg:w-1/2">
-          <h2 className="text-6xl text-black font-bold text-center lg:text-left">
+          <h2 className="text-6xl text-black font-bold text-center lg:text-center">
             Hi, I'm <span className="text-[#0ce290]">Harsh</span>
           </h2>
 
           <div
             id="divider"
-            className="w-60 h-1 bg-[#0ce290] mx-auto my-8 lg:mx-0"
+            className="w-60 h-1 bg-[#0ce290] mx-auto my-8 lg:mx-auto"
           />
 
           <TextGenerateEffect words={words} />
