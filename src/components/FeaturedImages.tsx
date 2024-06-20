@@ -10,9 +10,9 @@ function FeaturedImages() {
         </h2>
 
         <InfiniteMovingCards
-          items={["place.svg"]}
+          items={["f1.jpg" , "f2.jpg" , "f3.jpg" , "f4.jpg" , "f5.jpg"]}
           direction="right"
-          speed="fast"
+          speed="slow"
           className="mt-10"
         />
 
