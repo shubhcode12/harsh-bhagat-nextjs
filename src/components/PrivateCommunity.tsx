@@ -3,24 +3,6 @@ import { IoIosArrowDroprightCircle } from "react-icons/io";
 import Image from "next/image";
 
 function PrivateCommunity() {
-  const handleButtonClick = (url: string) => {
-    const currentTime = new Date();
-    const currentHour = currentTime.getHours();
-    const currentMinute = currentTime.getMinutes();
-    const startHour = 10;
-    const endHour = 17;
-    const endMinute = 30;
-
-    if (
-      (currentHour > startHour && currentHour < endHour) ||
-      (currentHour === startHour && currentMinute >= 0) ||
-      (currentHour === endHour && currentMinute <= endMinute)
-    ) {
-      window.open(url, "_blank");
-    } else {
-      alert("Try between 10 AM to 5:30 PM");
-    }
-  };
 
   return (
     <section
@@ -41,7 +23,7 @@ function PrivateCommunity() {
             <IoIosArrowDroprightCircle className="w-7 h-7" />
           </span>
           Open Account with given link 👉
-          <a href="#">
+          <a href="https://sam-co.in/RWFSMXk2b2U1b0NndXpsRnBJT05TUT09">
             <Image
               className="p-2"
               src="/samco.png"
@@ -50,7 +32,7 @@ function PrivateCommunity() {
               height={50}
             />
           </a>
-          <a href="#">
+          <a href="https://tinyurl.com/28wuyeob">
             <Image
               className="p-2"
               src="/angelone.webp"
