@@ -76,23 +76,7 @@ function PrivateCommunity() {
               this number 8700153496
             </p>
           </div>
-          <div className="flex space-x-4 mt-2 ml-8">
-            <button
-              className="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-              onClick={() => handleButtonClick("https://wa.me/919833322784")}>
-              Open Account
-            </button>
-            <button
-              className="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-              onClick={() => handleButtonClick("https://wa.me/917738091457")}>
-              For KYC
-            </button>
-            <button
-              className="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-              onClick={() => handleButtonClick("https://wa.me/918655953255")}>
-              How To Trade
-            </button>
-          </div>
+          
         </li>
         <li className="mb-4 flex items-center">
           <span className="mr-2">
