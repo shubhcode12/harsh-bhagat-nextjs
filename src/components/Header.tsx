@@ -33,7 +33,7 @@ function Header() {
       <div className="md:hidden">
         <button onClick={toggleMenu}>
           {menuOpen ? (
-            <IoMdClose className="h-6 w-6" />
+            <IoMdClose color="black" className="h-6 w-6" />
           ) : (
             <RiMenu3Fill color="black" className="h-6 w-6" />
           )}
