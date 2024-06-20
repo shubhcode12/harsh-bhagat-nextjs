@@ -22,7 +22,7 @@ function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 flex justify-between bg-transparent backdrop-blur-lg border-solid border-b-2 border-[#c1ffe7] items-center p-5 shadow-md bg-white">
-      <div className="text-2xl font-bold">Harsh Bhagat</div>
+      <div className="text-2xl text-black dark:text-black font-bold">Harsh Bhagat</div>
       <nav className="text-xl hidden md:flex">
         {menuItems.map((item, i) => (
           <Link href={item.link} className="px-3">
@@ -35,7 +35,7 @@ function Header() {
           {menuOpen ? (
             <IoMdClose className="h-6 w-6" />
           ) : (
-            <RiMenu3Fill className="h-6 w-6" />
+            <RiMenu3Fill color="black" className="h-6 w-6" />
           )}
         </button>
       </div>
@@ -44,7 +44,7 @@ function Header() {
           <ul className="flex flex-col items-center space-y-4 px-2 py-4">
             {menuItems.map((item, i) => (
               <li key={i}>
-                <Link href={item.link} className="px-3">
+                <Link href={item.link} className="text-black px-3">
                   {item.title}
                 </Link>
               </li>

@@ -40,7 +40,7 @@ function Hero() {
           <img
             src="man.jpeg"
             alt="Harsh Bhagat"
-            className="w-48 sm:w-64 md:w-80 lg:w-full h-auto object-cover"
+            className="w-148 sm:w-64 md:w-80 lg:w-full h-auto object-cover"
           />
         </div>
       </div>
