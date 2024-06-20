@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { Spotlight } from "./Spotlight";
 import { TextGenerateEffect } from "@/ui/TextGenEffect";
 
@@ -8,8 +7,8 @@ function Hero() {
     "Introducing Harsh Bhagat, a seasoned full-time trader and dynamic speaker featured on Josh Talks.";
 
   return (
-    <section className="container mx-auto px-4 py-16 text-center fade-in mt-10 overflow-hidden lg:overflow-visible sm:overflow-hidden">
-      <div className="relative w-full h-full">
+    <section className="container mx-auto px-4 py-16 text-center fade-in mt-10 overflow-hidden">
+      <div className="absolute inset-0 w-full h-full overflow-hidden">
         <Spotlight
           className="absolute -top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="#0ce290"
@@ -41,7 +40,7 @@ function Hero() {
           <img
             src="man.jpeg"
             alt="Harsh Bhagat"
-            className="w-100 h-100 object-cover"
+            className="w-48 sm:w-64 md:w-80 lg:w-full h-auto object-cover"
           />
         </div>
       </div>
