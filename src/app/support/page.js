@@ -1,10 +1,35 @@
+"use client";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import React from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Support() {
+  const handleButtonClick = (url) => {
+    const currentTime = new Date();
+    const currentHour = currentTime.getHours();
+    const currentMinute = currentTime.getMinutes();
+    const startHour = 10;
+    const endHour = 17;
+    const endMinute = 30;
+
+    if (
+      (currentHour > startHour && currentHour < endHour) ||
+      (currentHour === startHour && currentMinute >= 0) ||
+      (currentHour === endHour && currentMinute <= endMinute)
+    ) {
+      window.open(url, "_blank");
+    } else {
+      toast(
+        "Try between 10 AM to 5:30 PM </br> 10 baje se sham ko 5:30 baje tak support service available hai"
+      );
+      //alert("Try between 10 AM to 5:30 PM");
+    }
+  };
+
   return (
-    <main className="bg-white">
+    <div className="flex flex-col min-h-screen bg-white">
       <Header />
       <div className="px-10 pt-32 pb-10">
         <section className="bg-gray-100 p-10 rounded-lg mb-10">
@@ -13,16 +38,28 @@ export default function Support() {
           </h2>
           <ul className="list-decimal list-inside">
             <li>
-              <a href="#" className="text-blue-500">
+              <span
+                onClick={() => handleButtonClick("https://wa.me/919833322784")}
+                className="text-blue-500 cursor-pointer underline">
                 Click here
-              </a>{" "}
-              if you are facing an issue while opening your account.
+              </span>{" "}
+              To Open Account.
             </li>
             <li>
-              <a href="#" className="text-blue-500">
+              <a
+                onClick={() => handleButtonClick("https://wa.me/917738091457")}
+                className="text-blue-500 cursor-pointer underline">
                 Click here
               </a>{" "}
-              if you are having account verification issues.
+              For KYC
+            </li>
+            <li>
+              <a
+                onClick={() => handleButtonClick("https://wa.me/918655953255")}
+                className="text-blue-500 cursor-pointer underline">
+                Click here
+              </a>{" "}
+              How To Trade
             </li>
           </ul>
         </section>
@@ -41,6 +78,7 @@ export default function Support() {
         </section>
       </div>
       <Footer />
-    </main>
+      <ToastContainer />
+    </div>
   );
 }
