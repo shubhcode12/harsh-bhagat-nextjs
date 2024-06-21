@@ -17,7 +17,7 @@ function MediaAwards() {
           Media & Awards
         </h2>
       </div>
-      <div className="flex justify-around p-10 bg-white">
+      <div className="flex justify-around p-0 bg-white">
         {/* {awardsArray.map((logo, index) => (
           <div key={index}>
             <Image src={`/${logo}`} alt="Media Logo" width={100} height={50} />
