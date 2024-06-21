@@ -43,7 +43,7 @@ export default function Support() {
                 className="text-blue-500 cursor-pointer underline">
                 Click here
               </span>{" "}
-              To Open Account.
+              for Account opening issues
             </li>
             <li>
               <a
@@ -51,7 +51,7 @@ export default function Support() {
                 className="text-blue-500 cursor-pointer underline">
                 Click here
               </a>{" "}
-              For KYC
+              For KYC (verification issues)
             </li>
             <li>
               <a
@@ -59,7 +59,7 @@ export default function Support() {
                 className="text-blue-500 cursor-pointer underline">
                 Click here
               </a>{" "}
-              How To Trade
+              to learn How to trade
             </li>
           </ul>
         </section>
