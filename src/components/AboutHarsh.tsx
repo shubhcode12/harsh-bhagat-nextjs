@@ -4,7 +4,7 @@ import { RiYoutubeFill } from "react-icons/ri";
 
 function AboutHarsh() {
   return (
-    <section id="about" className="container mx-auto px-4 py-32 text-center">
+    <section id="about" className="container mx-auto px-4 sm:py-8 lg:py-32 text-center">
       <h3 className="text-6xl text-black dark:text-black font-normal">
         Who is <span className="text-green-500">Harsh Bhagat?</span>
       </h3>

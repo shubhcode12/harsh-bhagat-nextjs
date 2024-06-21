@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import { InfiniteMovingCards } from "./Carousel";
+import { MediaCarousel } from "./MediaCarousel";
 
 function MediaAwards() {
   const awardsArray = [
     "joshtalks.png",
     "joshtalks.png",
     "joshtalks.png",
-    "joshtalks.png",    
+    "joshtalks.png",
   ];
   return (
     <section id="awards" className="py-16">
@@ -24,7 +25,7 @@ function MediaAwards() {
           </div>
         ))} */}
 
-        <InfiniteMovingCards
+        <MediaCarousel
           items={awardsArray}
           direction="right"
           speed="slow"
