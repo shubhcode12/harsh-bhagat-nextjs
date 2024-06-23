@@ -64,7 +64,7 @@ export default function Support() {
           </ul>
         </section>
 
-        <section className="bg-gray-100 p-10 rounded-lg">
+        <section className="bg-gray-100 p-10 rounded-lg mb-10">
           <h2 className="text-2xl font-semibold text-green-500 mb-5">
             Private Community related issues
           </h2>
@@ -75,6 +75,44 @@ export default function Support() {
             </a>{" "}
             to get link in the next 72 hours.
           </p>
+        </section>
+
+        <section className="bg-gray-100 p-10 rounded-lg">
+          <h2 className="text-2xl font-semibold text-green-500 mb-5">
+            How to use SAMCO like a pro.
+          </h2>
+          <div className="flex flex-wrap gap-4 justify-left">
+            <div className="w-full md:w-1/2 lg:w-1/4">
+              <iframe
+                className="w-full h-54 md:h-80 lg:h-80"
+                src="https://www.youtube.com/embed/5GnsFslWhyg?si=uKwylYMIeFSsP3f0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+            </div>
+            <div className="w-full md:w-1/2 lg:w-1/4">
+              <iframe
+                className="w-full h-54 md:h-80 lg:h-80"
+                src="https://www.youtube.com/embed/LnaaI8dKXYM?si=_bos2nyyvJePIG8T"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+            </div>
+            <div className="w-full md:w-1/2 lg:w-1/4">
+              <iframe
+                className="w-full h-54 md:h-80 lg:h-80"
+                src="https://www.youtube.com/embed/XOnWnxRoIrc?si=woCJbpfVZMhpjiKs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+            </div>
+          </div>
         </section>
       </div>
       <Footer />
