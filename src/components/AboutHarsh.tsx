@@ -1,4 +1,5 @@
 import React from "react";
+import { FaTelegram } from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io5";
 import { RiYoutubeFill } from "react-icons/ri";
 
@@ -27,6 +28,9 @@ function AboutHarsh() {
         </a>
         <a href="#" className="text-green-500">
           <RiYoutubeFill className="w-8 h-8" />
+        </a>
+        <a href="https://telegram.openinapp.co/iueeh" className="text-green-500">
+          <FaTelegram className="w-8 h-8" />
         </a>
       </div>
     </section>
