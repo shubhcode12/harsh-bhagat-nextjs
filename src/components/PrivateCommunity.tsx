@@ -3,7 +3,6 @@ import { IoIosArrowDroprightCircle } from "react-icons/io";
 import Image from "next/image";
 
 function PrivateCommunity() {
-
   return (
     <section
       id="privateCommunity"
@@ -58,7 +57,6 @@ function PrivateCommunity() {
               this number 8700153496
             </p>
           </div>
-          
         </li>
         <li className="mb-4 flex items-center">
           <span className="mr-2">
@@ -67,6 +65,10 @@ function PrivateCommunity() {
           Welcome to Private Community 😎🚀
         </li>
       </ul>
+
+      <button type="submit" className="bg-green-500 text-white px-4 py-2 rounded-lg mt-6">
+        <a href="#contact">Need Help?</a> 
+      </button>
     </section>
   );
 }
