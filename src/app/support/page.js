@@ -36,7 +36,7 @@ export default function Support() {
           <h2 className="text-2xl font-semibold text-green-500 mb-5">
             Account related issues
           </h2>
-          <ul className="list-decimal list-inside">
+          <ul className="list-decimal text-black list-inside">
             <li>
               <span
                 onClick={() => handleButtonClick("https://wa.me/919833322784")}
@@ -82,35 +82,52 @@ export default function Support() {
             How to use SAMCO like a pro.
           </h2>
           <div className="flex flex-wrap gap-4 justify-left">
-            <div className="w-full md:w-1/2 lg:w-1/4">
+            <div className="card w-full md:w-1/2 lg:w-1/4">
               <iframe
-                className="w-full h-54 md:h-80 lg:h-80"
+                className="w-full h-54 md:h-80 lg:h-60"
                 src="https://www.youtube.com/embed/5GnsFslWhyg?si=uKwylYMIeFSsP3f0"
-                title="YouTube video player"
+                title="How to Buy and Sell Like A Pro"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen></iframe>
+              <div class="px-2 py-4">
+                <p class="text-black text-xl mb-2">
+                  How to Buy and Sell Like A Pro
+                </p>
+              </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/4">
               <iframe
-                className="w-full h-54 md:h-80 lg:h-80"
+                className="w-full h-54 md:h-80 lg:h-60"
                 src="https://www.youtube.com/embed/LnaaI8dKXYM?si=_bos2nyyvJePIG8T"
-                title="YouTube video player"
+                title="How to add Stocks in Watchlist"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen></iframe>
+
+              <div class="px-2 py-4">
+                <p class="text-black text-xl mb-2">
+                  How to add Stocks in Watchlist
+                </p>
+              </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/4">
               <iframe
-                className="w-full h-54 md:h-80 lg:h-80"
+                className="w-full h-54 md:h-80 lg:h-60"
                 src="https://www.youtube.com/embed/XOnWnxRoIrc?si=woCJbpfVZMhpjiKs"
-                title="YouTube video player"
+                title="Harsh Bhagat favourite features in Samco"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen></iframe>
+
+              <div class="px-2 py-4">
+                <p class="text-black text-xl mb-2">
+                  Harsh Bhagat favourite features in Samco
+                </p>
+              </div>
             </div>
           </div>
         </section>
