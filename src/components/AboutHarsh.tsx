@@ -2,6 +2,8 @@ import React from "react";
 import { FaTelegram } from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io5";
 import { RiYoutubeFill } from "react-icons/ri";
+import { FaSquareInstagram } from "react-icons/fa6";
+
 
 function AboutHarsh() {
   return (
@@ -23,10 +25,10 @@ function AboutHarsh() {
 
       <div className="mt-8 flex justify-center space-x-4 py-8">
         <h4 className="text-2xl text-black dark:text-black font-normal">Connect with me :</h4>
-        <a href="#" className="text-green-500">
-          <IoLogoInstagram className="w-8 h-8" />
+        <a href="https://www.instagram.com/meharshbhagat" className="text-green-500">
+          <FaSquareInstagram className="w-8 h-8" />
         </a>
-        <a href="#" className="text-green-500">
+        <a href="https://www.youtube.com/@meharshbhagat" className="text-green-500">
           <RiYoutubeFill className="w-8 h-8" />
         </a>
         <a href="https://telegram.openinapp.co/iueeh" className="text-green-500">
