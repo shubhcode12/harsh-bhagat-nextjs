@@ -22,7 +22,11 @@ function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 flex justify-between bg-transparent backdrop-blur-lg border-solid border-b-2 border-[#c1ffe7] items-center p-5 shadow-md bg-white">
-      <div className="text-2xl text-black dark:text-black font-bold">Harsh Bhagat</div>
+      <img
+        className="w-24 object-cover"
+        src="harsh-bhagat-logo.png"
+        alt="harsh bahagat"
+      />
       <nav className="text-xl hidden md:flex">
         {menuItems.map((item, i) => (
           <Link href={item.link} className="px-3">
