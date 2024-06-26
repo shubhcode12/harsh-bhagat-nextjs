@@ -7,8 +7,8 @@ function Hero() {
     "Introducing Harsh Bhagat, a seasoned full-time trader and dynamic speaker featured on Josh Talks.";
 
   return (
-    <section className="container mx-auto px-4 py-16 text-center fade-in mt-10 overflow-hidden">
-      <div className="absolute inset-0 w-full h-full overflow-hidden">
+    <div>
+      <div className="absolute w-full h-full overflow-hidden">
         <Spotlight
           className="absolute -top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="#0ce290"
@@ -22,29 +22,35 @@ function Hero() {
           fill="#0ce290"
         />
       </div>
+      <section className="container mx-auto px-4 py-16 text-center mt-10 overflow-hidden relative">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+          <div>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl text-black font-bold">
+              Hi, I'm <span className="text-[#0ce290]">Harsh</span>
+            </h2>
 
-      <div className="flex flex-col items-center lg:flex-row lg:items-center lg:justify-between">
-        <div className="lg:w-1/2">
-          <h2 className="text-6xl text-black font-bold text-center lg:text-center">
-            Hi, I'm <span className="text-[#0ce290]">Harsh</span>
-          </h2>
+            <div
+              id="divider"
+              className="w-60 h-1 bg-[#0ce290] mx-auto my-8 lg:mx-auto"
+            />
 
-          <div
-            id="divider"
-            className="w-60 h-1 bg-[#0ce290] mx-auto my-8 lg:mx-auto"
-          />
-
-          <TextGenerateEffect words={words} />
+            <TextGenerateEffect words={words} />
+          </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="man.jpeg"
+              alt="Harsh Bhagat"
+              className="w-64 md:w-80 lg:w-full h-auto object-cover"
+            />
+            <button
+              type="submit"
+              className="bg-[#0ce290] text-white px-4 py-2 rounded-lg mt-6">
+              <a href="#privateCommunity">Join Private Community</a>
+            </button>
+          </div>
         </div>
-        <div className="mt-8 lg:mt-0 lg:w-1/2 flex justify-center lg:justify-end">
-          <img
-            src="man.jpeg"
-            alt="Harsh Bhagat"
-            className="w-148 sm:w-64 md:w-80 lg:w-full h-auto object-cover"
-          />
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }
 
