@@ -19,8 +19,7 @@ export default function Home() {
       <MediaAwards />
       <AboutHarsh />
       <FeaturedImages />
-      <PrivateCommunity />
-      <Contact />
+      <PrivateCommunity />      
       <Footer />
     </div>
   );
