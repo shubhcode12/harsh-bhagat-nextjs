@@ -1,13 +1,11 @@
 import React from "react";
-import { FaTelegram } from "react-icons/fa6";
-import { IoLogoInstagram } from "react-icons/io5";
-import { RiYoutubeFill } from "react-icons/ri";
-import { FaSquareInstagram } from "react-icons/fa6";
-
+import { SocialIcon } from "react-social-icons";
 
 function AboutHarsh() {
   return (
-    <section id="about" className="container mx-auto px-4 sm:py-8 lg:py-32 text-center">
+    <section
+      id="about"
+      className="container mx-auto px-4 sm:py-8 lg:py-32 text-center">
       <h3 className="text-6xl text-black dark:text-black font-normal">
         Who is <span className="text-green-500">Harsh Bhagat?</span>
       </h3>
@@ -24,16 +22,28 @@ function AboutHarsh() {
       </p>
 
       <div className="mt-8 flex justify-center space-x-4 py-8">
-        <h4 className="text-2xl text-black dark:text-black font-normal">Connect with me :</h4>
-        <a href="https://www.instagram.com/meharshbhagat" className="text-green-500">
-          <FaSquareInstagram className="w-8 h-8" />
-        </a>
-        <a href="https://www.youtube.com/@meharshbhagat" className="text-green-500">
-          <RiYoutubeFill className="w-8 h-8" />
-        </a>
-        <a href="https://telegram.openinapp.co/iueeh" className="text-green-500">
-          <FaTelegram className="w-8 h-8" />
-        </a>
+        <h4 className="text-2xl text-black dark:text-black font-normal">
+          Connect with me :
+        </h4>
+
+        <SocialIcon
+          style={{ height: 35, width: 35 }}
+          bgColor="#22c55d"
+          fgColor="#ffffff"
+          url="https://www.instagram.com/meharshbhagat"
+        />
+        <SocialIcon
+          style={{ height: 35, width: 35 }}
+          bgColor="#22c55d"
+          fgColor="#ffffff"
+          url="https://www.youtube.com/@meharshbhagat"
+        />
+        <SocialIcon
+          style={{ height: 35, width: 35 }}
+          bgColor="#22c55d"
+          fgColor="#ffffff"
+          url="https://telegram.openinapp.co/iueeh"
+        />
       </div>
     </section>
   );
