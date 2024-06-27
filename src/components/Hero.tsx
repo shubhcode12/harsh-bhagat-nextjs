@@ -40,7 +40,7 @@ function Hero() {
             <img
               src="hero-harsh.png"
               alt="Harsh Bhagat"
-              className="w-64 md:w-80 lg:w-full h-auto object-cover"
+              className="w-full md:w-80 lg:w-full h-auto object-cover"
             />
             <button
               type="submit"
