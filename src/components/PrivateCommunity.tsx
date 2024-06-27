@@ -21,7 +21,7 @@ function PrivateCommunity() {
           <span className="mr-2">
             <IoIosArrowDroprightCircle className="w-7 h-7" />
           </span>
-          Open Account with given link 👉
+          Open account with given link. 👉
           <a href="https://sam-co.in/RWFSMXk2b2U1b0NndXpsRnBJT05TUT09">
             <Image
               className="p-2"
@@ -45,7 +45,8 @@ function PrivateCommunity() {
           <span className="mr-2">
             <IoIosArrowDroprightCircle className="w-7 h-7" />
           </span>
-          Login your Account after Successful opening after 24 hours
+          ⁠Your account will be activated within 24 hours. Please log in after
+          that time.
         </li>
         <li className="mb-4">
           <div className="flex items-center">
@@ -53,8 +54,8 @@ function PrivateCommunity() {
               <IoIosArrowDroprightCircle className="w-7 h-7" />
             </span>
             <p>
-              Login krliya sit relax. Link 3 days mein ajayega on WhatsApp from
-              this number 8700153496
+              ⁠Now sit back and relax. You will receive the private community
+              link in your WhatsApp inbox from this contact +91 87001 53496
             </p>
           </div>
         </li>
@@ -62,12 +63,14 @@ function PrivateCommunity() {
           <span className="mr-2">
             <IoIosArrowDroprightCircle className="w-7 h-7" />
           </span>
-          Welcome to Private Community 😎🚀
+          Welcome to our Private community. 🚀
         </li>
       </ul>
 
-      <button type="submit" className="bg-white text-black px-4 py-2 rounded-lg mt-6">
-        <a href="/support">Need Help?</a> 
+      <button
+        type="submit"
+        className="bg-white text-black px-4 py-2 rounded-lg mt-6">
+        <a href="/support">Need Help?</a>
       </button>
     </section>
   );

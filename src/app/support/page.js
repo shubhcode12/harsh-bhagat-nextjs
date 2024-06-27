@@ -79,10 +79,12 @@ export default function Support() {
 
         <section className="bg-gray-100 p-10 rounded-lg">
           <h2 className="text-2xl font-semibold text-green-500 mb-5">
-            How to use SAMCO like a pro.
+            1. How to use SAMCO like a pro.
           </h2>
           <div className="flex flex-wrap gap-4 justify-left">
             <div className="card w-full md:w-1/2 lg:w-1/4">
+              <p class="text-black mb-2">How to Buy and Sell Like A Pro</p>
+
               <iframe
                 className="w-full h-54 md:h-80 lg:h-60"
                 src="https://www.youtube.com/embed/5GnsFslWhyg?si=uKwylYMIeFSsP3f0"
@@ -91,13 +93,9 @@ export default function Support() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen></iframe>
-              <div class="px-2 py-4">
-                <p class="text-black text-xl mb-2">
-                  How to Buy and Sell Like A Pro
-                </p>
-              </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/4">
+              <p class="text-black mb-2">2. How to add Stocks in Watchlist</p>
               <iframe
                 className="w-full h-54 md:h-80 lg:h-60"
                 src="https://www.youtube.com/embed/LnaaI8dKXYM?si=_bos2nyyvJePIG8T"
@@ -106,14 +104,12 @@ export default function Support() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen></iframe>
-
-              <div class="px-2 py-4">
-                <p class="text-black text-xl mb-2">
-                  How to add Stocks in Watchlist
-                </p>
-              </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/4">
+              <p class="text-black mb-2">
+                3. Harsh Bhagat favourite features in Samco
+              </p>
+
               <iframe
                 className="w-full h-54 md:h-80 lg:h-60"
                 src="https://www.youtube.com/embed/XOnWnxRoIrc?si=woCJbpfVZMhpjiKs"
@@ -122,12 +118,6 @@ export default function Support() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen></iframe>
-
-              <div class="px-2 py-4">
-                <p class="text-black text-xl mb-2">
-                  Harsh Bhagat favourite features in Samco
-                </p>
-              </div>
             </div>
           </div>
         </section>

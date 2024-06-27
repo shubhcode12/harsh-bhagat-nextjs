@@ -38,7 +38,7 @@ function Hero() {
           </div>
           <div className="flex flex-col items-center">
             <img
-              src="man.jpeg"
+              src="hero-harsh.png"
               alt="Harsh Bhagat"
               className="w-64 md:w-80 lg:w-full h-auto object-cover"
             />

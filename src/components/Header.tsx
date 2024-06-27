@@ -13,11 +13,11 @@ function Header() {
 
   const menuItems = [
     { title: "Home", link: "/" },
-    { title: "Awards", link: "#awards" },
-    { title: "About", link: "#about" },
+    { title: "Awards", link: "https://harshbhagat.com/#awards" },
+    { title: "About", link: "https://harshbhagat.com/#about" },
     { title: "Support", link: "/support" },
-    { title: "Private Community", link: "#privateCommunity" },
-    { title: "Contact", link: "#contact" },
+    { title: "Private Community", link: "https://harshbhagat.com/#privateCommunity" },
+    { title: "Contact", link: "https://harshbhagat.com/#contact" },
   ];
 
   return (
