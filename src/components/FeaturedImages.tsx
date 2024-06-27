@@ -12,7 +12,7 @@ function FeaturedImages() {
 
       <div className="flex justify-around p-0">
         <InfiniteMovingCards
-          items={["f1.jpg", "f2.jpg", "f3.jpg", "f4.jpg", "f5.jpg"]}
+          items={["f1.jpg", "f3.jpg", "f4.jpg"]}
           direction="right"
           speed="slow"
           className="mt-10"
