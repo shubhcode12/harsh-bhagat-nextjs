@@ -68,7 +68,7 @@ export default function Support() {
           <h2 className="text-2xl font-semibold text-green-500 mb-5">
             Private Community related issues
           </h2>
-          <p>
+          <p className="text-black">
             If you haven't received the private community link yet,{" "}
             <a href="#" className="text-blue-500">
               fill out this form
@@ -79,11 +79,11 @@ export default function Support() {
 
         <section className="bg-gray-100 p-10 rounded-lg">
           <h2 className="text-2xl font-semibold text-green-500 mb-5">
-            1. How to use SAMCO like a pro.
+            How to use SAMCO like a pro.
           </h2>
           <div className="flex flex-wrap gap-4 justify-left">
             <div className="card w-full md:w-1/2 lg:w-1/4">
-              <p class="text-black mb-2">How to Buy and Sell Like A Pro</p>
+              <p class="text-black mb-2">1. How to Buy and Sell Like A Pro</p>
 
               <iframe
                 className="w-full h-54 md:h-80 lg:h-60"
