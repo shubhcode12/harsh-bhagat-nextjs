@@ -22,7 +22,7 @@ function Hero() {
           fill="#0ce290"
         />
       </div>
-      <section className="container mx-auto px-4 py-16 text-center mt-10 overflow-hidden relative">
+      <section className="container mx-auto px-4 py-32 lg:py-16 text-center mt-10 overflow-hidden relative">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl lg:text-6xl text-black font-bold">
