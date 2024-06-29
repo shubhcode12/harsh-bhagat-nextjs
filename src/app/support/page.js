@@ -70,7 +70,7 @@ export default function Support() {
           </h2>
           <p className="text-black">
             If you haven't received the private community link yet,{" "}
-            <a href="#" className="text-blue-500">
+            <a href="https://forms.gle/NwTjrMRsN9Ar8gb3A" className="text-blue-500">
               fill out this form
             </a>{" "}
             to get link in the next 72 hours.

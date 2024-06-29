@@ -21,7 +21,7 @@ function PrivateCommunity() {
           <span className="mr-2">
             <IoIosArrowDroprightCircle className="w-7 h-7" />
           </span>
-          Open account with given link. 👉
+          ⁠Open Account through this 👉
           <a href="https://sam-co.in/RWFSMXk2b2U1b0NndXpsRnBJT05TUT09">
             <Image
               className="p-2"
@@ -45,8 +45,7 @@ function PrivateCommunity() {
           <span className="mr-2">
             <IoIosArrowDroprightCircle className="w-7 h-7" />
           </span>
-          ⁠Your account will be activated within 24 hours. Please log in after
-          that time.
+          Account open होने के बाद Login कीजिये
         </li>
         <li className="mb-4">
           <div className="flex items-center">
@@ -54,8 +53,8 @@ function PrivateCommunity() {
               <IoIosArrowDroprightCircle className="w-7 h-7" />
             </span>
             <p>
-              ⁠Now sit back and relax. You will receive the private community
-              link in your WhatsApp inbox from this contact +91 87001 53496
+              Login hone ke bad apko 72 hours mein is WhatsApp Number se Private
+              community link mil jayega +918700153496
             </p>
           </div>
         </li>
@@ -63,7 +62,7 @@ function PrivateCommunity() {
           <span className="mr-2">
             <IoIosArrowDroprightCircle className="w-7 h-7" />
           </span>
-          Welcome to our Private community. 🚀
+          For any doubts click below on Need help option 🙏
         </li>
       </ul>
 

@@ -28,7 +28,7 @@ function MediaAwards() {
         <MediaCarousel
           items={awardsArray}
           direction="right"
-          speed="slow"
+          speed="normal"
           className=""
         />
       </div>
